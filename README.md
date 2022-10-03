@@ -77,4 +77,5 @@ Plots - Contains all plots associated with the WGCNA workflow.
 RDS_objects - Contains all .rds objects associated with the WGCNA workflow. Certain files were too large for uplaod. 
 
 
+sessionInfo is located in the main/home directory.
 
