@@ -1,1 +1,1 @@
-# MSc_Thesis_Transcriptomic_Analysis
+# MSc_Thesis_Transcriptomics
