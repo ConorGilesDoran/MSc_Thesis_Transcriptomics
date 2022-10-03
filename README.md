@@ -64,9 +64,10 @@ Processed:
 Results generated from pre-processing procedures, including the combined_array, the pre-processed merged dataset and the pre-processed sample metadata. 
 Note that certain objects, such as the 'full_processed_list.rds', could not be uploaded to its file size. 
 
-WGCNA:
+\underline{WGCNA}:
 
 Results generated from the WGCNA_workflow.R script.
+
 Module_info - contains module eigengenes (MEs), module genes, signedKME for all genes with all modules (kMEtable), signedKME of each gene for its associated module (moduleKME) and hub genes.
 
 
