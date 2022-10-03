@@ -14,7 +14,7 @@ Repository for all R scripts and results associated with my research dissertatio
 5.	Achieve a comprehensive tissue-wide insight into the molecular alterations and mechanisms contributing to PD at the transcriptome-level of the SN. 
 
 
-#### Datasets: 
+### Datasets: 
 Gene expression data used in this study was downloaded from the Gene Expression Omnibus (GEO).
 
 Merging - GSE8397, GSE20292, GSE49036, GSE7621, GSE20186.
@@ -22,7 +22,7 @@ Merging - GSE8397, GSE20292, GSE49036, GSE7621, GSE20186.
 Laser Captured - GSE20141
 
 
-#### Scripts folder:
+### Scripts folder:
 DE_GO_GSEA_workflow.R - Workflow used for data pre-processing, merging, differential expression analysis, GO over-representation analysis and GSEA.
 
 process_meta.R - Manual assembly and processing of the merged sample metadata.
@@ -33,7 +33,7 @@ WGCNA_workflow.R - Workflow used to perform WGCNA and module profiling.
 
 Helper_functions.R - All functions utlized in this study.
 
-#### Results folder:
+### Results folder:
 
 Batch Analysis:
 
@@ -65,6 +65,9 @@ Results generated from pre-processing procedures, including the combined_array, 
 Note that certain objects, such as the 'full_processed_list.rds', could not be uploaded to its file size. 
 
 WGCNA:
+
+Results generated from the WGCNA_workflow.R script.
+Module_info - contains module eigengenes (MEs), module genes, signedKME for all genes with all modules (kMEtable), signedKME of each gene for its associated module (moduleKME) and hub genes.
 
 
 
