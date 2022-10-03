@@ -64,7 +64,7 @@ Processed:
 Results generated from pre-processing procedures, including the combined_array, the pre-processed merged dataset and the pre-processed sample metadata. 
 Note that certain objects, such as the 'full_processed_list.rds', could not be uploaded to its file size. 
 
-</u>WGCNA:
+</u>WGCNA:</u>
 
 Results generated from the WGCNA_workflow.R script.
 
