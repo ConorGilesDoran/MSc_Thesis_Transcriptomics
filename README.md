@@ -1,6 +1,6 @@
 # MSc_Thesis_Transcriptomics
 
-Repository for all R scripts and results associated with my research dissertation for the MSc Bioinformatics and Computational Biology degree in University College Cork.
+Repository for all R scripts and results associated with my research dissertation for the MSc Bioinformatics and Computational Biology degree in University College Cork, 2022.
 
 #### Project title:
 "Transcriptomic analysis of the substantia nigra reveals alterations in key biological systems involved in the pathogenesis of Parkinson’s Disease"
@@ -34,5 +34,38 @@ WGCNA_workflow.R - Workflow used to perform WGCNA and module profiling.
 Helper_functions.R - All functions utlized in this study.
 
 #### Results folder:
+
+Batch Analysis:
+
+PCA plot, sample correlation matrix sample clustering dendrogram from before and after outlier removal and ComBat adjustment.
+
+Dopaminergic_markers:
+
+Results from the correlation and simple linear regression analysis between RET and dopaminergic markers, including a correlation heatmap, expression heatmap and scatter plots. 
+
+GO_over_rep:
+
+Results generated from GO over-representation analysis, including the associated plots. 
+
+GSEA:
+
+Results generated from gene set enrichment analysis, including the associated plots. GSEA_GO contains a breakdown of each GO category enrichment.
+
+Laser_dissected:
+
+Results associated with the LCM data series, including PCA plot, correlation matrix, sample clustering, dopaminergic marker expression and limma differential expression results. 
+
+limma_results:
+
+Results generated from differential gene expression analysis of the merged microarray dataset, including a plot of the top 30 most signifcant differentially expressed genes.
+
+Processed:
+
+Results generated from pre-processing procedures, including the combined_array, the pre-processed merged dataset and the pre-processed sample metadata. 
+Note that certain objects, such as the 'full_processed_list.rds', could not be uploaded to its file size. 
+
+WGCNA:
+
+
 
 
